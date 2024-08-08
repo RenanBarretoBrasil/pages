@@ -1,0 +1,76 @@
+@font-face {
+    font-family: [LEMON MILK];
+    src: url(C:\Windows\Fonts\LEMONMILK-Regular);
+ }
+body{
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    font-family: LEMON MILK;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+h1{
+    font-size: 25px;
+    color: blueviolet;
+}
+h2{
+    font-size: 14px;
+    line-break: strict;
+}
+
+.center{
+    text-align: center;
+    padding: 20px;
+}
+
+.name_description{
+    font-family: [LEMON MILK];
+    text-align: center;
+}
+main{
+    font-size: 12px;
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: justify;
+}
+
+footer img{
+    width: 57px;
+    height: 57px;
+}
+
+footer{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    margin: 20px;
+    text-align: center;
+}
+
+footer p{
+    font-size: 12px;
+    margin: 4px;
+}
